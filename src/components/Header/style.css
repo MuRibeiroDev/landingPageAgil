@@ -1,0 +1,30 @@
+.headerContainer {
+    height: 12vh;
+    position: fixed; /* Fixa o header no topo */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa toda a largura */
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px); /* Efeito de vidro fosco (suporte nos navegadores modernos) */
+    padding: 1rem 0; /* Espaçamento interno */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Garante que fique acima dos outros elementos */
+}
+
+.header {
+    width: 90%; /* Ajuste conforme necessário */
+    display: flex;
+    justify-content: space-between; /* Um item em cada extremidade */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.imgLogo img {
+    height: 3vw; /* Ajuste conforme necessário */
+}
+
+.containerButtonsHeader {
+    display: flex;
+    gap: 16px; /* Espaçamento entre os botões */
+}
